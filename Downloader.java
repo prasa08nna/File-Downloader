@@ -4,8 +4,8 @@ import java.net.URL;
 public class Downloader {
 
     public static void main(String[] args) throws Exception{
-        String fileURL = "https://neodlcdn5.s3.ap-southeast-1.wasabisys.com/Black.Mirror.S03.720p.x264.Hindi.English.Esubs.Vegamovies.ml.zip?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=A8POA605KWGSKX3LDQ6G/20250426/ap-southeast-1/s3/aws4_request&X-Amz-Date=20250426T111745Z&X-Amz-SignedHeaders=host&X-Amz-Expires=590400&X-Amz-Signature=7854370ac24b0f53cb2f94df9c4d1b20588f3798d3363284ef276a153d1eb8c5";
-        String outputFile = "BlackMirrorS3.zip";
+        String fileURL = "https://neodlcdn5.s3.ap-southeast-1.wasabisys.com/Black.Mirror.S02.720p.x264.Hindi.English.Esubs.Vegamovies.ml.zip?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=A8POA605KWGSKX3LDQ6G/20250426/ap-southeast-1/s3/aws4_request&X-Amz-Date=20250426T110120Z&X-Amz-SignedHeaders=host&X-Amz-Expires=590400&X-Amz-Signature=f9eb7cc7cc13cd1e20171d8b60b80c4e850ef88dc0a2ca7368c03b471b089a24";
+        String outputFile = "BlackMirrorS2.zip";
         int numberOfThreads =7 ;
 
         URL url = new URL(fileURL);
